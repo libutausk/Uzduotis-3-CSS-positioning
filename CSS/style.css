@@ -1,0 +1,67 @@
+		.sticky {
+                position: sticky;
+                top: 0;
+                z-index: 1;
+                text-align: center;
+            }
+
+            .parent {
+                position: relative;
+                background: tomato;
+                width: 60%;
+                height: 60vh;
+                margin: 20px auto;
+                border: 1px solid tomato;
+            }
+
+            .topLeft {
+                width: 150px;
+                height: 150px;
+                background: #fff;
+            }
+
+            .topRight {
+                width: 150px;
+                height: 150px;
+                background: #fff;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+
+            .bottomLeft {
+                width: 150px;
+                height: 150px;
+                background: #fff;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+
+            .bottomRight {
+                width: 150px;
+                height: 150px;
+                background: #fff;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+
+            .parent2 {
+                position: relative;
+                background: tomato;
+                width: 60%;
+                height: 60vh;
+                margin: 20px auto;
+                margin-top: 200px;
+                margin-bottom: 400px;
+            }
+
+            .middle {
+                width: 300px;
+                height: 300px;
+                background: #fff;
+                position: absolute;
+                top: calc(50% - 150px);
+                left: calc(50% - 150px);
+		 }
